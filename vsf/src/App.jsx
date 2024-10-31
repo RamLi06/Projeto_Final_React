@@ -1,28 +1,49 @@
 import './App.css'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+const SistemaDePonto = () => {
+  const [registros, setRegistros] = useState([]);
+  const [tipoPonto, setTipoPonto] = useState('');
+  const [dataHoraAtual, setDataHoraAtual] = useState(new Date().toLocaleString());
 
-  function incrementar(){
+  useEffect(() => {
+    const intervalo = setInterval(() => {
+      setDataHoraAtual(new Date().toLocaleString());
+    }, 1000);
 
-      setCount(count + 1);
-  }
-  function decrementar(){
+    return () => clearInterval(intervalo); // Limpa o intervalo ao desmontar o componente
+  }, []);
 
-    setCount(count - 1);
-}
+  const registrarPonto = () => {
+    if (tipoPonto) {
+      const novoRegistro = {
+        tipo: tipoPonto,
+        data: new Date().toLocaleString(),
+      };
+      setRegistros([...registros, novoRegistro]);
+      setTipoPonto('');
+    }
+  };
 
   return (
-    <>
-      <h1>Contador</h1>
-    <div id ='botão'>
-      <button className='botao' onClick={incrementar}>Incrementar</button>
-      <button className='botao' onClick={decrementar}>Decrementar</button>
-      <p>{count}</p>
+    <div>
+      <h1>Sistema de Ponto</h1>
+      <h2>Data e Hora Atual: {dataHoraAtual}</h2>
+      <div>
+        <button onClick={() => setTipoPonto('Entrada')}>Registrar Entrada</button>
+        <button onClick={() => setTipoPonto('Saída')}>Registrar Saída</button>
+        <button onClick={registrarPonto}>Confirmar Registro</button>
       </div>
-   </>
-   )
-   
-  }
-export default App
+      <h2>Histórico de Pontos</h2>
+      <ul>
+        {registros.map((registro, index) => (
+          <li key={index}>
+            {registro.tipo} - {registro.data}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default SistemaDePonto;

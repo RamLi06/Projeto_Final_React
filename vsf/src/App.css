@@ -9,18 +9,14 @@ h1 {
   text-align: center;
 }
 
-#botão {
-  padding: 3%;
+button {
+  display: flex;
+  flex-direction: column;
   margin-left: 43%;
-  margin-right: 43%;
-  flex-direction: row;
-  background-color: gray;
-  border-radius: 13px;
+  justify-content: space-around;
 }
 
-button {
-  border: solid black;
-  padding: 2%;
+h2 {
 
-
+  background-color: blueviolet;
 }

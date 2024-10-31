@@ -7,19 +7,19 @@ export default function Home(){
 
         <>
         
-        <h1>Welcome to <br />
-            <strong>Bopedia.</strong></h1>
+        <h1>Bem vindo ao <br />
+            <strong> Brapedia. </strong></h1>
         
 
-        <h2>An Ensiclopedia about the <br />Pokémon of the Brazs region
+        <h2>Uma pokedex digital para os entusiastas dos <br />pokémons da região de Bras.
 
 
 </h2>
 
-        <button className='dex-button'><h3>Take a look at our Pokedex</h3></button>
-
+        
 
         </>
+        
 
 
     )
