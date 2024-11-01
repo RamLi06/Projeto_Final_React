@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import search from '../assets/images/procurar.png';
 import logo from '../assets/images/logo.png';
 import './style.css';
-
+import { Link } from "react-router-dom"; 
 
 export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -38,7 +38,7 @@ export default function Header() {
 
         <nav>
           <ul className="menu">
-            <li><a href="#">Início</a></li>
+            <li><Link to ='/'>Início</Link></li>
             <li className="dropdown" ref={dropdownRef}>
               <button className="dropbtn" onClick={toggleDropdown}>
                 Mais &#9662;
@@ -48,7 +48,7 @@ export default function Header() {
                   <h3>Social</h3>
                   <a href="https://github.com/RamLi06">Github</a>
       
-                  <a href="#">X (Twitter)</a>
+                  <a href="https://x.com/noraim239">X (Twitter)</a>
                  
                   <a href="#">Instagram</a>
                

@@ -10,16 +10,20 @@ export default function Register(){
     <Header/>
     <div className='register'>
         <form id='register-form'>
+            <div className='form-register'> 
         <h2>Login</h2>
 
-        <input type="text" placeholder='Username' />
-        <input type='email' placeholder='Email'/>
-        <input type='password' />
+        <input type="text" placeholder='Username' required />
+        <input type='email' placeholder='Email' required/>
+        <input type='password' placeholder='Password' required/>
 
-        <button id='confirm-btn' type='submit'></button>
+        <button id='confirm-btn' type='submit'>Submit</button>
+        </div>
         </form>
 
+        <div className='footer'></div>
         <Footer/>
+        
     </div>
     
     </>

@@ -4,6 +4,7 @@ import Header from '../header'
 import Sidebar from '../sidebar/sidebar.jsx'
 import Footer from '../footer'
 
+
 export default function Home(){
    
     return(

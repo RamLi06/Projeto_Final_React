@@ -1,0 +1,51 @@
+.form-register{
+
+    display: flex;
+    flex-direction: column;
+   width: 300px;
+   height: 400px;
+    text-align: center;
+   margin-left: 41%;
+   background-color: rgb(132, 132, 132);
+   margin-top: 2%;
+   border-radius: 6px;
+}
+
+.form-register input{
+
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 7px;
+    border: none;
+}
+
+.form-register h2{
+
+    margin-right: 2%;
+    margin-top: 25%;
+}
+
+.footer{
+
+    margin-bottom: 17.8%;
+
+}
+
+.form-register button{
+
+    width: 200px;
+    height: 40px;
+    margin-top: 13%;
+    margin-left: 17%;
+    border: none;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 6px;
+    background-color: rgb(218, 218, 218);
+}
+
+.form-register button:active {
+
+    background-color: rgb(193, 193, 193);
+}
