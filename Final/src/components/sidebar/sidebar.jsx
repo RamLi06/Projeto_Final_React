@@ -18,7 +18,7 @@ export default function Sidebar() {
         <button className="close-btn" onClick={toggleSidebar}>
           &times;
         </button>
-        <h3>Menu Lateral</h3>
+        <h3>Brapédia</h3>
         <ul>
           <li><a href="#">Login</a></li>
           <li><a href="#">Sobre</a></li>

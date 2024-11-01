@@ -1,4 +1,3 @@
-// Header.jsx
 import React, { useState, useEffect, useRef } from "react";
 import search from '../assets/images/procurar.png';
 import logo from '../assets/images/logo.png';
@@ -13,17 +12,17 @@ export default function Header() {
   };
 
   const handleClickOutside = (event) => {
-    // Se o clique ocorrer fora do dropdown, fechamos o menu
+  
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
       setIsDropdownOpen(false);
     }
   };
 
   useEffect(() => {
-    // Adiciona um evento de clique ao documento
+  
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      // Remove o evento de clique ao desmontar o componente
+     
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
@@ -33,7 +32,7 @@ export default function Header() {
       <div className='header'>
         <img id='logo' src={logo} alt="Logo" />
         <header>
-          <h2 className='title'> Brapedia </h2>
+          <h2 className='title'> Brapédia </h2>
         </header>
 
         <nav>
