@@ -12,9 +12,10 @@ h1{
 
 
 h2{
-    margin-left: 4.5%;
+    margin-left: 3.3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flexbox;
+    font-size: 200%;
 }
 
 
@@ -41,7 +42,7 @@ body {
 
 .btn-pokedex{
 
-    margin-left: 15%;
+    margin-left: 2%;
     
 }
 

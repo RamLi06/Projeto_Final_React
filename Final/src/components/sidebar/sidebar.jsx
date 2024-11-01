@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,9 @@ export default function Sidebar() {
         <button className="close-btn" onClick={toggleSidebar}>
           &times;
         </button>
-        <h3>Brapédia</h3>
+        <h3>Ariândex</h3>
         <ul>
-          <li><a href="#">Login</a></li>
+          <li><Link to ='/register'>Login</Link></li>
           <li><a href="#">Sobre</a></li>
           <li><a href="#">Random</a></li>
         </ul>

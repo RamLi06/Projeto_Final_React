@@ -1,18 +1,22 @@
 import './style.css'
 import planta from '../assets/images/Planta1.png'
-
+import Header from '../header'
+import Sidebar from '../sidebar/sidebar.jsx'
+import Footer from '../footer'
 
 export default function Home(){
    
     return(
 
         <>
-        
+
+        <Header/>
+        <Sidebar/>
         <h1>Bem vindo ao 
-            <strong> Brapédia. </strong></h1>
+            <strong> Ariândex. </strong></h1>
   
 
-        <h2>Uma pokedex digital para os entusiastas dos <br />pokémons da região de Braf. <br /> 
+        <h2>Uma pokedex digital para os entusiastas dos <br />pokémons da região de Arianis. <br /> 
             <div className='home-pokemon'>
         <img src={planta} alt="" />
 </div>
@@ -21,8 +25,10 @@ export default function Home(){
 
             <div className='btn-pokedex'>
 
-                <button>De uma olhada na nossa pokedex &#11166;</button>
+                <button>De uma olhada na nossa pokédex &#11166;</button>
             </div>
+
+            <Footer/>
         </>
         
 

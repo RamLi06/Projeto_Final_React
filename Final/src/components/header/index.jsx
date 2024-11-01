@@ -3,6 +3,7 @@ import search from '../assets/images/procurar.png';
 import logo from '../assets/images/logo.png';
 import './style.css';
 
+
 export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -32,13 +33,12 @@ export default function Header() {
       <div className='header'>
         <img id='logo' src={logo} alt="Logo" />
         <header>
-          <h2 className='title'> Brapédia </h2>
+          <h2 className='title'> Ariândex </h2>
         </header>
 
         <nav>
           <ul className="menu">
             <li><a href="#">Início</a></li>
-            <li><a href="#">Discord</a></li>
             <li className="dropdown" ref={dropdownRef}>
               <button className="dropbtn" onClick={toggleDropdown}>
                 Mais &#9662;
@@ -46,7 +46,7 @@ export default function Header() {
               {isDropdownOpen && (
                 <div className="dropdown-content">
                   <h3>Social</h3>
-                  <a href="#">Github</a>
+                  <a href="https://github.com/RamLi06">Github</a>
       
                   <a href="#">X (Twitter)</a>
                  
