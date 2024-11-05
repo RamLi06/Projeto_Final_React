@@ -4,7 +4,7 @@
     align-items: center;
     padding: 10px;
     background-color: #525252;
-    width: 100%;
+    width: 150%;
   }
   
   #logo {
@@ -127,4 +127,64 @@
     scale: 120%;
   }
 
+ @media (max-width: 430px){
+
+  .pesquisa {
+    padding: 5px;
+    margin-left: 10px;
+    width: 40px;
+    transition: width 1s;
+    border-radius: 20px;
+    border: solid transparent;
+  }
+
+
+  #logo {
+    width: 30px;
+    height: auto;
+    scale: 200%;
+  }
+  
+  .title {
+    color: white;
+    margin-right: 2%;
+    
+  }
+  .pesquisa:focus{
+
+    
+    width: 100px;
+  }
+}
+  
+
+@media (max-width: 444px){
+
+  .pesquisa {
+    padding: 5px;
+    margin-left: 10px;
+    width: 40px;
+    transition: width 1s;
+    border-radius: 20px;
+    border: solid transparent;
+  }
+
+
+  #logo {
+    width: 30px;
+    height: auto;
+    scale: 200%;
+  }
+  
+  .title {
+    color: white;
+    margin-right: 2%;
+    
+  }
+  .pesquisa:focus{
+
+    
+    width: 100px;
+  }
+}  
  

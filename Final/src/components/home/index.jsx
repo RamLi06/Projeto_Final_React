@@ -2,7 +2,8 @@ import './style.css'
 import planta from '../assets/images/Planta1.png'
 import Header from '../header'
 import Sidebar from '../sidebar/sidebar.jsx'
-import Footer from '../footer'
+import { Link } from 'react-router-dom'
+import	Footer from '../footer/index.jsx'
 
 
 export default function Home(){
@@ -26,10 +27,10 @@ export default function Home(){
 
             <div className='btn-pokedex'>
 
-                <button>De uma olhada na nossa pokédex &#11166;</button>
+            <Link to = '/pokemon'>  <button>De uma olhada na nossa pokédex &#11166;</button></Link> 
             </div>
-
-            <Footer/>
+            
+                <Footer/>
         </>
         
 

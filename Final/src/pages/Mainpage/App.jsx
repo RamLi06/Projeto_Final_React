@@ -14,7 +14,7 @@ function App() {
                 <Route path="/register" 
                 Component={RegisterPage}/>
 
-                <Route path="/jesusteama" 
+                <Route path="/pokemon" 
                 Component={PokeP}/>
             </Routes>
         </Router>

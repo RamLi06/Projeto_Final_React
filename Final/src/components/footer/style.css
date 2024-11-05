@@ -1,14 +1,79 @@
 #footer{
-
+   
     background-color: #525252 ;
     font-size: 120%;
-    margin-top: 3.8%;
+    margin-top: 13.3%;
     color: white;
-    font-size: 100%;
+    width: 120%;
     
 }
 
 #footer p{
 
-    text-align: center;
+    margin-left: 30%;
+
+}
+
+@media (max-width: 758px){
+    #footer{
+        font-size: 100%;
+        padding: 2%;
+    }
+}
+
+
+@media (max-width: 1330px){
+
+    #footer{
+
+        font-size: 90%;
+        margin-top: 10.6%;
+        
+    }
+
+    #footer p{
+
+        margin-left: 39%;
+    }
+}
+
+@media (max-width: 430px){
+
+    
+    #footer{
+
+        font-size: 90%;
+        margin-top: 43%;
+        
+    }
+
+    #footer p{
+
+        margin-left: 19%;
+    }
+
+}
+
+@media (max-width: 444px){
+
+    
+    #footer{
+
+        font-size: 90%;
+        margin-top: 80%;
+        width: 190%;
+        
+    }
+
+    #footer p{
+
+        margin-left: 22%;
+    }
+
+    body{
+
+        width: 444px;
+        height: 909px;
+    }
+
 }

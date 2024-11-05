@@ -22,7 +22,10 @@ export default function Register(){
         </form>
 
         <div className='footer'></div>
+
+       
         <Footer/>
+        
         
     </div>
     
