@@ -50,7 +50,7 @@ export default function Header() {
       
                   <a href="https://x.com/noraim239">X (Twitter)</a>
                  
-                  <a href="#">Instagram</a>
+                  <a href="https://www.youtube.com/watch?v=rzLIUgnKY40&ab_channel=VideoGameAF">Instagram</a>
                
                 </div>
               )}

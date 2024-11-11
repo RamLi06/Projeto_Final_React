@@ -1,0 +1,113 @@
+#title-p{
+    color: rgb(0, 0, 0);
+    opacity: 69%;
+    margin-left: 15%;
+    margin-bottom: -3%;
+    margin-top: 3%;
+    margin-right: 73%;
+  
+    
+}
+
+
+.poke img{
+    width: 900px;
+    margin-top: 2%;
+    margin-bottom: -10%
+    
+}
+.poke button{
+
+    margin: 6%;
+    margin-bottom: -25%;
+    margin-left: 6%;
+    font-size: 130%;
+    background: rgb(185, 185, 185);
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.poke button:hover{
+
+    background-color: #2981a3 ;
+    color: white;
+    cursor: pointer;
+
+}
+
+.descrição{
+
+    text-align: start;
+    margin-top: -20%;
+    background-color: #30a6d4;
+    border-radius: 3px;
+    margin-left: 50%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+   font-size: 120%;
+   padding: 2%;
+   margin-right: 3%;
+
+    
+}
+
+
+
+#gender{
+    
+    scale: 20%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: -15%;
+    
+    border: none;
+    
+}
+
+#gender button{
+
+    background: none;
+    border: none;
+    transition: 0.5s;
+
+
+}
+
+#gender button:hover{
+
+    scale: 130%;
+    cursor: pointer;
+    
+}
+
+.status{
+
+    text-align: start;
+    margin-top: -15%;
+    border-radius: 3px;
+    margin-left: 50%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+   font-size: 160%;
+   padding: 2%;
+   margin-right: 3%;
+   background-color: gray;
+   border-radius: 15px;
+}
+
+#type{
+
+    width: 48px;
+    height: 48px;
+    margin-top: 5px;
+}
+
+#weak{
+
+    margin-top: 3%;
+}
