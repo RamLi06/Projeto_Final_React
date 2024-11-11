@@ -1,10 +1,9 @@
 #title-p{
     color: rgb(0, 0, 0);
     opacity: 69%;
-    margin-left: 15%;
+    margin-left: 19%;
     margin-bottom: -3%;
     margin-top: 3%;
-    margin-right: 73%;
   
     
 }
@@ -40,7 +39,7 @@
 .descrição{
 
     text-align: start;
-    margin-top: -20%;
+    margin-top: -35%;
     background-color: #30a6d4;
     border-radius: 3px;
     margin-left: 50%;
@@ -61,8 +60,8 @@
     scale: 20%;
     display: flex;
     flex-direction: row;
-    margin-left: 15%;
-    margin-top: -15%;
+    margin-left: 12%;
+    margin-top: -20%;
     
     border: none;
     
@@ -87,23 +86,23 @@
 .status{
 
     text-align: start;
-    margin-top: -15%;
+    margin-top: -20%;
     border-radius: 3px;
     margin-left: 50%;
     padding-bottom: 4%;
     display: flex;
     flex-direction: column;
-   font-size: 160%;
-   padding: 2%;
-   margin-right: 3%;
-   background-color: gray;
-   border-radius: 15px;
+    font-size: 160%;
+    padding: 2%;
+    margin-right: 3%;
+    background-color: gray;
+    border-radius: 15px;
 }
 
 #type{
 
-    width: 48px;
-    height: 48px;
+    width: 120px;
+    height: auto;
     margin-top: 5px;
 }
 
@@ -111,3 +110,5 @@
 
     margin-top: 3%;
 }
+
+
