@@ -27,7 +27,7 @@ export default function Home(){
 
             <div className='btn-pokedex'>
 
-            <Link to = '/pokemon'>  <button>De uma olhada na nossa pokédex &#11166;</button></Link> 
+            <Link to = '/Herbkeeper'>  <button>De uma olhada na nossa pokédex &#11166;</button></Link> 
             </div>
             
                 <Footer/>

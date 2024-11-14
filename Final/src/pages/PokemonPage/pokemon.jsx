@@ -17,6 +17,7 @@ export default function PokemonPage() {
     return (
         <>
         <Header/>
+
         <div className='poke'>
           <button>&#11164; Ultimo Pokemon</button>
          <Link to ='/Grasstalker'><button>Grasstalker #02 &#11166;</button></Link> 
@@ -25,6 +26,7 @@ export default function PokemonPage() {
            <img src={poke} alt="" />
 
         </div>
+
            <div className='descrição'>
             <h4>HerbKeeper, o Pokémon observador, é conhecido por guardar os segredos das florestas antigas.  Dizem que ele se comunica com as plantas e desaparece silenciosamente entre as sombras das árvores. Fun fact: Sempre o confundem com um tal de Jonathan</h4>
     

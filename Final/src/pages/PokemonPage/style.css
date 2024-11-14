@@ -4,6 +4,7 @@
     margin-left: 19%;
     margin-bottom: -3%;
     margin-top: 3%;
+    background: none;
   
     
 }
@@ -11,8 +12,11 @@
 
 .poke img{
     width: 900px;
-    margin-top: 2%;
-    margin-bottom: -10%
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: -18%;
+    scale: 140%;
+
     
 }
 .poke button{
@@ -39,14 +43,14 @@
 .descrição{
 
     text-align: start;
-    margin-top: -36%;
+    margin-top: -25%;
     background-color: #30a6d4;
     border-radius: 3px;
-    margin-left: 50%;
+    margin-left: 47%;
     padding-bottom: 4%;
     display: flex;
     flex-direction: column;
-   font-size: 120%;
+   font-size: 140%;
    padding: 2%;
    margin-right: 3%;
 
@@ -57,11 +61,11 @@
 
 #gender{
     
-    scale: 15%;
+    scale: 25%;
     display: flex;
     flex-direction: row;
-    margin-left: 9%;
-    margin-top: -22%;
+    margin-left: 14%;
+    margin-top: -15%;
     
     border: none;
     
@@ -86,18 +90,18 @@
 .status{
 
     text-align: start;
-    margin-top: -23%;
+    margin-top: -14%;
     border-radius: 3px;
     margin-left: 47%;
     padding-bottom: 4%;
     display: flex;
     flex-direction: column;
-    font-size: 160%;
+    font-size: 170%;
     padding: 2%;
     margin-right: 3%;
     background-color: gray;
     border-radius: 15px;
-    scale: 90%;
+    scale: 100%;
 }
 
 #type{
@@ -111,5 +115,4 @@
 
     margin-top: 3%;
 }
-
 

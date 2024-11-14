@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +20,7 @@ export default function Sidebar() {
         </button>
         <h3>Ariândex</h3>
         <ul>
-          <li><Link to ='/register'>Login</Link></li>
+          <li></li>
           <li><a href="#">Sobre</a></li>
           <li><a href="#">Random</a></li>
         </ul>

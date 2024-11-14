@@ -26,6 +26,8 @@ h2{
     height: auto;
     transform: scale(300%);
     margin-bottom: 3%;
+    margin-right: 20%;
+    scale: 105%;
     
 
 }
@@ -54,6 +56,7 @@ body {
     background-color: rgb(255, 82, 82);
     border-radius: 15px;
     color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 .btn-pokedex button:active{
@@ -64,6 +67,7 @@ body {
 .btn-pokedex button:hover{
 
     cursor: pointer;
+    transform: scale(112%);
 }
 
 @media (max-width: 430px){
@@ -161,4 +165,23 @@ body{
     height: 909px;
 }
 
+}
+
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .home-pokemon img {
+        max-width: 400px;
+    }
+
+    .btn-pokedex button {
+        font-size: 1.3rem;
+        padding: 1rem 2rem;
+    }
 }

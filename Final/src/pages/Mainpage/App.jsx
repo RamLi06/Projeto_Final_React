@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RegisterPage from "../Register";
 import PokeP from "../PokemonPage/pokemon.jsx"
 import Home from '../../components/home'
-import Poke2 from '../PokemonPage2/index.jsx'
-import Poke3 from '../PokemonPage3/index.jsx'
+import Poke2 from '../PokemonPage/pokemon2.jsx'
+import Poke3 from '../PokemonPage/pokemon3.jsx'
+
 
 function App() {
  
@@ -13,10 +13,7 @@ function App() {
                 <Route path="/"
                 Component={Home}/>
 
-                <Route path="/register" 
-                Component={RegisterPage}/>
-
-                <Route path="/pokemon" 
+                <Route path="/Herbkeeper" 
                 Component={PokeP}/>
 
                 <Route path = "/Grasstalker"
