@@ -70,7 +70,7 @@ body {
     transform: scale(112%);
 }
 
-@media (max-width: 430px){
+@media (max-width: 480px){
 
 
     .home-pokemon img{
@@ -78,6 +78,9 @@ body {
         width: 200px;
         height: auto;
         margin-top: 30%;
+        scale: 99%;
+        margin-left: 4%;
+    
 }
 
 
@@ -92,7 +95,7 @@ h1{
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 2%;
-    font-size: 300%;
+    font-size: 250%;
     margin-left: 3%;
 
 }
@@ -105,83 +108,9 @@ h1{
     background-color: rgb(255, 82, 82);
     border-radius: 10px;
     margin-top: 30%;
-    padding: 2%;
+    padding: 5%;
+    margin-left: 10%;
 }
 
 }    
-@media (max-width: 1357px){
 
-    .home-pokemon img{
-
-        scale: 120%;
-        margin-top: 30%;
-    }
-
-}
-
-@media (max-width: 444px){
-
-
-    .home-pokemon img{
-
-        width: 300px;
-        height: auto;
-        margin-top: 40%;
-}
-
-
-h2{
-    margin-left: 3.3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flexbox;
-    font-size: 100%;
-}
-
-h1{
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 2%;
-    font-size: 300%;
-    margin-left: 3%;
-
-}
-
-.btn-pokedex button{
-
-    padding: 1.2%;
-    font-size: 100%;
-    border: none;
-    background-color: rgb(255, 82, 82);
-    border-radius: 10px;
-    margin-top: 38%;
-    padding: 2%;
-}
-
-
-
-body{
-
-    width: 444px;
-    height: 909px;
-}
-
-}
-
-@media (min-width: 1280px) {
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    .home-pokemon img {
-        max-width: 400px;
-    }
-
-    .btn-pokedex button {
-        font-size: 1.3rem;
-        padding: 1rem 2rem;
-    }
-}

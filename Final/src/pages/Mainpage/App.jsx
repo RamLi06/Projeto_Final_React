@@ -3,7 +3,8 @@ import PokeP from "../PokemonPage/pokemon.jsx"
 import Home from '../../components/home'
 import Poke2 from '../PokemonPage/pokemon2.jsx'
 import Poke3 from '../PokemonPage/pokemon3.jsx'
-
+import Poke4 from '../PokemonPage/pokemon4.jsx'
+import Poke5 from '../PokemonPage/pokemon5.jsx'
 
 function App() {
  
@@ -21,6 +22,14 @@ function App() {
 
                 <Route path = "/Foresterror"
                 Component={Poke3}/>
+
+                <Route path = "/Flabull"
+                Component={Poke4}/>
+
+                <Route path = "/Toadflame"
+                Component={Poke5}/>
+
+
 
             </Routes>
         </Router>

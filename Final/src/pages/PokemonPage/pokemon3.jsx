@@ -10,7 +10,7 @@ import venenoso from '../../components/assets/images/poison.png'
 import inseto from '../../components/assets/images/inseto.png'
 import dark from '../../components/assets/images/dark.png'
 import luta from '../../components/assets/images/luta.png'
-
+import { Link } from "react-router-dom"
 
 import {useNavigate } from 'react-router-dom'
 
@@ -23,7 +23,7 @@ export default function PokemonPage2() {
         <Header/>
         <div className='poke'>
             <button onClick={() => Navigate(-1)}>&#11164;Grasstalker #02</button>
-            <button>Flambull #03 &#11166;</button>
+         <Link to = '/Flabull'><button>Flambull #03 &#11166;</button></Link>  
 
            <h3 id='title-p'>Foresterror #03</h3> 
            <img src={poke} alt="" />

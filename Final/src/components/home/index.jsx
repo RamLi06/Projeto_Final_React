@@ -18,7 +18,7 @@ export default function Home(){
             <strong> Ariândex. </strong></h1>
   
 
-        <h2>Uma pokedex digital para os entusiastas dos <br />pokémons da região de Arianis. <br /> 
+        <h2>Uma pokedex digital para os entusiastas dos <br />pokémons da região de Ariâmis. <br /> 
             <div className='home-pokemon'>
         <img src={planta} alt="" />
 </div>
