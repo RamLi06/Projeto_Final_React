@@ -2,10 +2,10 @@
    
     background-color: #525252 ;
     font-size: 120%;
-    margin-top: 16%;
+    margin-top: 15.6%;
     color: white;
     width: 120%;
-    
+    padding: 2px;
 }
 
 #footer p{
@@ -18,12 +18,15 @@
     #footer{
         font-size: 100%;
         padding: 2%;
-        margin-top: 59%;
+        margin-top: 54%;
 
     }
+
+    
     #footer p{
 
-        margin-left: 18%;
+        margin-left: 16%;
+
     
     }
 }
