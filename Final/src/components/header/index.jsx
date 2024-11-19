@@ -57,11 +57,6 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-
-        <button id='search'>
-          <img id='search-icon' src={search} alt="Search Icon" />
-        </button>
-        <input className='pesquisa' type="text" placeholder='Search' />
       </div>
     </>
   );

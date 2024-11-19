@@ -47,7 +47,7 @@
     padding-right: 1%;
     border: none;
     color: rgb(0, 0, 0);
-    margin: 10px;
+    margin-left: 1px;
     transition: 0.3s;
   }
 
@@ -79,4 +79,14 @@
   h3{
 
     font-size: 200%;
+  }
+
+  #butao-random{
+
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: start;
+  
+
   }

@@ -9,6 +9,7 @@ import fogo from '../../components/assets/images/fogo.png'
 import voador from '../../components/assets/images/voador.png'
 import venenoso from '../../components/assets/images/poison.png'
 import inseto from '../../components/assets/images/inseto.png'
+import Sidebar from '../../components/sidebar/sidebar.jsx'
 
 import { Link } from 'react-router-dom'
 
@@ -17,7 +18,7 @@ export default function PokemonPage() {
     return (
         <>
         <Header/>
-
+        <Sidebar/>
         <div className='poke'>
           <button>&#11164; Ultimo Pokemon</button>
          <Link to ='/Grasstalker'><button>Grasstalker #02 &#11166;</button></Link> 

@@ -7,7 +7,7 @@ import fogo from '../../components/assets/images/fogo.png'
 import pedra from '../../components/assets/images/pedra.png'
 import terra from '../../components/assets/images/ground.png'
 import { Link } from "react-router-dom"
-
+import Sidebar from '../../components/sidebar/sidebar.jsx'
 
 
 import {useNavigate } from 'react-router-dom'
@@ -19,6 +19,7 @@ export default function PokemonPage2() {
     return (
         <>
         <Header/>
+        <Sidebar/>
         <div className='poke'>
             <button onClick={() => Navigate(-1)}>&#11164;Foresterror #03</button>
           <Link to = '/Toadflame'><button>Toadflame #05 &#11166;</button></Link>

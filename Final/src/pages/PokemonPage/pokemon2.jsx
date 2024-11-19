@@ -10,6 +10,7 @@ import venenoso from '../../components/assets/images/poison.png'
 import inseto from '../../components/assets/images/inseto.png'
 import {useNavigate } from 'react-router-dom'
 import { Link } from "react-router-dom"
+import Sidebar from '../../components/sidebar/sidebar.jsx'
 
 export default function PokemonPage2() {
 
@@ -18,6 +19,7 @@ export default function PokemonPage2() {
     return (
         <>
         <Header/>
+        <Sidebar/>
         <div className='poke'>
             <button onClick={() => Navigate(-1)}>&#11164;Herbkeep #02</button>
            <Link to = "/Foresterror"><button>Foresterror #03 &#11166;</button></Link> 

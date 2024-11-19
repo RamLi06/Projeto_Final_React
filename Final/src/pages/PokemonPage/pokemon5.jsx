@@ -6,7 +6,7 @@ import agua from '../../components/assets/images/agua.png'
 import fogo from '../../components/assets/images/fogo.png'
 import pedra from '../../components/assets/images/pedra.png'
 import terra from '../../components/assets/images/ground.png'
-
+import Sidebar from '../../components/sidebar/sidebar.jsx'
 
 
 
@@ -19,6 +19,7 @@ export default function PokemonPage2() {
     return (
         <>
         <Header/>
+        <Sidebar/>
         <div className='poke'>
             <button onClick={() => Navigate(-1)}>&#11164;Flambull #04</button>
             <button>Frokuna #06 &#11166;</button>
