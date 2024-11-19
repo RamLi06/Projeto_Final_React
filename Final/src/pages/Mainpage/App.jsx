@@ -5,6 +5,7 @@ import Poke2 from '../PokemonPage/pokemon2.jsx'
 import Poke3 from '../PokemonPage/pokemon3.jsx'
 import Poke4 from '../PokemonPage/pokemon4.jsx'
 import Poke5 from '../PokemonPage/pokemon5.jsx'
+import Poke6 from '../PokemonPage/pokemon6.jsx'
 
 function App() {
  
@@ -28,6 +29,9 @@ function App() {
 
                 <Route path = "/Toadflame"
                 Component={Poke5}/>
+
+                <Route path = "/Frokkuna"
+                Component={Poke6}/>
 
 
 

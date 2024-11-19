@@ -32,3 +32,10 @@ export default function Register(){
     </>
     )
 }
+/* const routes = [
+    "/Herbkeeper",
+    "/Grasstalker",
+    "/Foresterror",
+    "/Flabull",
+    "/Toadflame",
+    "/Frokkuna"]; */

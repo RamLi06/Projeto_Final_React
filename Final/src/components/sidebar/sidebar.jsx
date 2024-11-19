@@ -4,49 +4,58 @@ import { useNavigate } from "react-router-dom";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [lastRoute, setLastRoute] = useState(null); 
   const navigate = useNavigate();
 
 
-  const routes = [
+    const routes = [
     "/Herbkeeper",
     "/Grasstalker",
     "/Foresterror",
     "/Flabull",
-    "/Toadflame"];
+    "/Toadflame",
+    "/Frokkuna"]; 
+
+
+  const handleRandomRedirect = () => {
+   
+    const availableRoutes = routes.filter((route) => route !== lastRoute);
+
+
+    const randomRoute =
+      availableRoutes[Math.floor(Math.random() * availableRoutes.length)];
 
  
-  const handleRandomRedirect = () => {
-    const randomRoute = routes[Math.floor(Math.random() * routes.length)];
-    navigate(randomRoute);
+    setLastRoute(randomRoute);
+    navigate(randomRoute, { replace: true });
   };
 
- 
+
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <>
-      {/* Botão para abrir a sidebar */}
+     
       <button className="sidebar-toggle" onClick={toggleSidebar}>
         ☰
       </button>
 
-      {/* Sidebar */}
+     
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         <button className="close-btn" onClick={toggleSidebar}>
           &times;
         </button>
         <h3>Ariândex</h3>
         <ul>
-          {/* Botão para redirecionar para uma rota aleatória */}
+         
           <li>
             <button id="butao-random" onClick={handleRandomRedirect}><a>Random</a></button>
           </li>
           <li>
             <a href="/about">Sobre</a>
           </li>
-          
         </ul>
       </div>
     </>
