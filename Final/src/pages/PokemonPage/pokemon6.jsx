@@ -26,12 +26,12 @@ export default function PokemonPage2() {
             <button onClick={() => Navigate(-1)}>&#11164;Toadflame #05</button>
             <button>Shrimprill #07 &#11166;</button>
 
-           <h3 id='title-p'>Frokkuna #06</h3> 
+           <h3 id='title-p'>Frokoua #06</h3> 
            <img src={poke} alt="" />
 
         </div>
            <div className='descrição'>
-            <h4>Frokkuna, o pokémon rei das chamas, todas as almas atormentadas de suas batalhas passadas tomam forma em suas chamas as deixando azuladas, misteriosamente criam um par de braços adicionais.  </h4>
+            <h4>Frokoua, o pokémon rei das chamas, todas as almas atormentadas de suas batalhas passadas tomam forma em suas chamas as deixando azuladas, misteriosamente criam um par de braços adicionais.  </h4>
     
 
            </div>

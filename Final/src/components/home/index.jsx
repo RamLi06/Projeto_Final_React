@@ -1,5 +1,4 @@
 import './style.css'
-import planta from '../assets/images/Planta1.png'
 import Header from '../header'
 import Sidebar from '../sidebar/sidebar.jsx'
 import { Link } from 'react-router-dom'
@@ -19,9 +18,7 @@ export default function Home(){
   
 
         <h2>Uma pokedex digital para os entusiastas dos <br />pokémons da região de Ariâmis. <br /> 
-            <div className='home-pokemon'>
-        <img src={planta} alt="" />
-</div>
+
 
 </h2>
 

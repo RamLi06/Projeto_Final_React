@@ -1,32 +1,23 @@
-#footer{
-   
-    background-color: #525252 ;
-    font-size: 120%;
-    margin-top: 15.6%;
+#footer {
+    background-color: #525252;
+    font-size: 100%;
     color: white;
-    width: 120%;
+    width: 100%; /* Ajustado para evitar ultrapassar o tamanho da tela */
     padding: 2px;
+    position: relative; /* Mantém o posicionamento controlado */
+    margin-top: 19.63%; /* Ajusta para que ele ocupe apenas o espaço necessário */
+    overflow: hidden; /* Evita que qualquer conteúdo ultrapasse os limites */
+    text-align: center;
 }
-
-#footer p{
-
-    margin-left: 34%;
-
-}
-
-@media (max-width: 480px){
-    #footer{
+@media (max-width: 480px) {
+    #footer {
         font-size: 100%;
         padding: 2%;
-        margin-top: 54%;
-
+        margin-top: 138%;
+        overflow: hidden; /* Certifica-se de ocultar o excesso no layout responsivo */
     }
 
-    
-    #footer p{
-
-        margin-left: 16%;
-
-    
+    #footer p {
+        text-align: center;
     }
 }

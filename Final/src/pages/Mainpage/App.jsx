@@ -6,6 +6,7 @@ import Poke3 from '../PokemonPage/pokemon3.jsx'
 import Poke4 from '../PokemonPage/pokemon4.jsx'
 import Poke5 from '../PokemonPage/pokemon5.jsx'
 import Poke6 from '../PokemonPage/pokemon6.jsx'
+import sobre from '../../components/register/index.jsx'
 
 function App() {
  
@@ -33,7 +34,8 @@ function App() {
                 <Route path = "/Frokkuna"
                 Component={Poke6}/>
 
-
+              <Route path = "/about"
+              Component={sobre}/>
 
             </Routes>
         </Router>

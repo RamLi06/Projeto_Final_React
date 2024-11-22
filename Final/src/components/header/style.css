@@ -1,190 +1,154 @@
-
 .header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background-color: #525252;
-    width: 150%;
-  }
-  
-  #logo {
-    width: 50px;
-    height: auto;
-    scale: 200%;
-  }
-  
-  .title {
-    color: white;
-    margin-right: auto;
-  }
-  
-  .menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  .menu > li {
-    position: relative;
-    margin-left: 15px;
-  }
-  
-  .menu > li > a, .dropbtn {
-    display: block;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    background: none;
-    border: none;
-  }
-  
-  .menu > li > a:hover, .dropbtn:hover {
-    background-color: #444;
-  }
-  
- 
-  .dropdown-content {
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-width: 200px;
-    z-index: 1;
-    padding: 10px 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #525252;
+  width: 110%; /* Ajustado para evitar rolagem horizontal */
+}
 
-    transition: 0.3s;;
-  }
-  
-  .dropdown-content h3 {
-    margin: 10px;
-    font-size: 14px;
-    color: #333;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-  }
-  
-  .dropdown-content a {
-    padding: 10px 20px;
-    color: #333;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
+#logo {
+  width: 50px;
+  height: auto;
+  scale: 200%;
+}
 
-  #search {
-    background: none;
-    border: none;
-    cursor: pointer;
-   
-  }
-  
-  #search-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
+.title {
+  color: white;
+  margin-right: auto;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu > li {
+  position: relative;
+  margin-left: 15px;
+}
+
+.menu > li > a,
+.dropbtn {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.menu > li > a:hover,
+.dropbtn:hover {
+  background-color: #444;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  z-index: 1;
+  padding: 10px 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.menu > li:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-content h3 {
+  margin: 10px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.dropdown-content a {
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+#search {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.pesquisa {
+  padding: 5px;
+  margin-left: 10px;
+  width: 90px;
+  transition: width 1s;
+  border-radius: 20px;
+  border: solid transparent;
+}
+
+.pesquisa:hover {
+  cursor: pointer;
+}
+
+.pesquisa:focus {
+  width: 300px;
+  max-width: 80%; /* Limita largura em telas menores */
+}
+
+#menu-h img {
+  width: 35px;
+  height: auto;
+}
+
+#menu-h {
+  background: transparent;
+  border: transparent;
+  padding: 2%;
+  transition: transform 0.2s ease-in;
+}
+
+#menu-h:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 444px) {
   .pesquisa {
-    padding: 5px;
-    margin-left: 10px;
-    width: 90px;
-    transition: width 1s;
-    border-radius: 20px;
-    border: solid transparent;
-  }
-  .pesquisa:hover{
-
-    cursor: pointer;
-  }
-  
-  .pesquisa:focus{
-
-    
-    width: 300px;
+      padding: 5px;
+      margin-left: 10px;
+      width: 40px;
+      border-radius: 20px;
+      border: solid transparent;
   }
 
-  #menu-h img{
-
-    width: 35px;
-    height: auto;
-  
+  .pesquisa:focus {
+      width: 100px;
   }
-
-  #menu-h{
-
-    background: transparent;
-    border: transparent;
-    padding: 2%;
-    transition: ease-in 0.1s;
-  }
-
-  #menu-h:hover{
-
-    scale: 120%;
-  }
-
- @media (max-width: 430px){
-
-  .pesquisa {
-    padding: 5px;
-    margin-left: 10px;
-    width: 40px;
-    transition: width 1s;
-    border-radius: 20px;
-    border: solid transparent;
-  }
-
 
   #logo {
-    width: 30px;
-    height: auto;
-    scale: 200%;
+      width: 30px;
+      height: auto;
+      scale: 200%;
   }
-  
-  .title {
-    color: white;
-    margin-right: 2%;
-    
-  }
-  .pesquisa:focus{
 
-    
-    width: 100px;
+  .title {
+      color: white;
+      margin-right: 2%;
   }
 }
-  
-
-@media (max-width: 444px){
-
-  .pesquisa {
-    padding: 5px;
-    margin-left: 10px;
-    width: 40px;
-    transition: width 1s;
-    border-radius: 20px;
-    border: solid transparent;
-  }
-
-
-  #logo {
-    width: 30px;
-    height: auto;
-    scale: 200%;
-  }
-  
-  .title {
-    color: white;
-    margin-right: 2%;
-    
-  }
-  .pesquisa:focus{
-
-    
-    width: 100px;
-  }
-}  
- 

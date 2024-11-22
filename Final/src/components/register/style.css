@@ -1,51 +1,60 @@
-.form-register{
-
-    display: flex;
-    flex-direction: column;
-   width: 300px;
-   height: 400px;
-    text-align: center;
-   margin-left: 41%;
-   background-color: rgb(132, 132, 132);
-   margin-top: 2%;
-   border-radius: 6px;
-}
-
-.form-register input{
-
-    display: flex;
-    margin: 2%;
-    padding: 2%;
-    border-radius: 7px;
-    border: none;
-}
-
-.form-register h2{
-
-    margin-right: 2%;
-    margin-top: 25%;
-}
-
-.footer{
-
-    margin-bottom: 25%;
-
-}
-
-.form-register button{
-
-    width: 200px;
-    height: 40px;
-    margin-top: 13%;
-    margin-left: 17%;
-    border: none;
-    font-size: 100%;
+/* Estilo principal */
+.register p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 6px;
-    background-color: rgb(218, 218, 218);
+    font-size: 200%;
+    text-align: center; /* Centraliza o texto */
 }
 
-.form-register button:active {
+#profile {
+    margin: 1.4% auto; /* Centraliza horizontalmente */
+    border-radius: 50%; /* Mantém o formato circular */
+    display: block; /* Garante que o elemento seja tratado como bloco para centralização */
+    max-width: 2000px; /* Define um tamanho máximo */
+    height: auto; /* Mantém a proporção */
+}
 
-    background-color: rgb(193, 193, 193);
+.logo {
+     /* Altura fixa para o logo */
+    padding: 1.6em; /* Espaçamento ao redor */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Centraliza o logo como bloco */
+    scale: 500%;/* Mantém a proporção */
+    margin-top: 6%;
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+    .register p {
+        font-size: 110%; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    #profile {
+        max-width: 120px; /* Reduz o tamanho da imagem de perfil */
+    }
+
+    .logo {
+        height: 7em; /* Reduz o tamanho do logo */
+        padding: 1.2em; /* Ajusta o espaçamento */
+    }
+}
+
+@media (max-width: 480px) {
+    .register p {
+        font-size: 100%; /* Ajusta ainda mais a fonte para telas pequenas */
+        padding: 0 10px; /* Adiciona espaço interno para evitar textos encostados */
+    }
+
+    #profile {
+        max-width: 190px; /* Reduz ainda mais o tamanho da imagem de perfil */
+    }
+
+    .logo {
+        margin-top: 5%;
+        height: 9em; /* Ajusta o tamanho do logo */
+        padding: 1em; /* Ajusta o espaçamento interno */
+    }
+}
+
+body{
+    overflow: hidden;
 }
