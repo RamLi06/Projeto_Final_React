@@ -13,18 +13,16 @@ import luta from '../../components/assets/images/luta.png'
 import { Link } from "react-router-dom"
 import Sidebar from '../../components/sidebar/sidebar.jsx'
 
-import {useNavigate } from 'react-router-dom'
-
 export default function PokemonPage2() {
 
-    const Navigate = useNavigate();
+    
 
     return (
         <>
         <Header/>
         <Sidebar/>
         <div className='poke'>
-            <button onClick={() => Navigate(-1)}>&#11164;Grasstalker #02</button>
+          <Link to = '/Grasstalker'><button>&#11164;Grasstalker #02</button></Link> 
          <Link to = '/Flabull'><button>Flambull #03 &#11166;</button></Link>  
 
            <h3 id='title-p'>Foresterror #03</h3> 

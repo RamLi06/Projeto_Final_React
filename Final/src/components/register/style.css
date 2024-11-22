@@ -52,6 +52,7 @@
         margin-top: 5%;
         height: 9em; /* Ajusta o tamanho do logo */
         padding: 1em; /* Ajusta o espaçamento interno */
+        scale: 100%;
     }
 }
 

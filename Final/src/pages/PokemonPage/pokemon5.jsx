@@ -9,20 +9,16 @@ import terra from '../../components/assets/images/ground.png'
 import Sidebar from '../../components/sidebar/sidebar.jsx'
 import { Link } from "react-router-dom"
 
-
-import {useNavigate } from 'react-router-dom'
-
 export default function PokemonPage2() {
 
-    const Navigate = useNavigate();
 
     return (
         <>
         <Header/>
         <Sidebar/>
         <div className='poke'>
-            <button onClick={() => Navigate(-1)}>&#11164;Flambull #04</button>
-         <Link to={"/Frokkuna"}><button>Frokuna #06 &#11166;</button></Link> 
+           <Link to = '/Flabull'><button>&#11164;Flambull #04</button></Link> 
+         <Link to={"/Frokkuna"}><button>Frokuma #06 &#11166;</button></Link> 
 
            <h3 id='title-p'>Toadflame #05</h3> 
            <img src={poke} alt="" />

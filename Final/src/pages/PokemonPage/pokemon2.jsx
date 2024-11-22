@@ -8,20 +8,19 @@ import fogo from '../../components/assets/images/fogo.png'
 import voador from '../../components/assets/images/voador.png'
 import venenoso from '../../components/assets/images/poison.png'
 import inseto from '../../components/assets/images/inseto.png'
-import {useNavigate } from 'react-router-dom'
 import { Link } from "react-router-dom"
 import Sidebar from '../../components/sidebar/sidebar.jsx'
 
 export default function PokemonPage2() {
 
-    const Navigate = useNavigate();
+    
 
     return (
         <>
         <Header/>
         <Sidebar/>
         <div className='poke'>
-            <button onClick={() => Navigate(-1)}>&#11164;Herbkeep #02</button>
+           <Link to = '/Herbkeeper'><button>&#11164;Herbkeep #02</button></Link> 
            <Link to = "/Foresterror"><button>Foresterror #03 &#11166;</button></Link> 
 
            <h3 id='title-p'>Grasstalker #02</h3> 

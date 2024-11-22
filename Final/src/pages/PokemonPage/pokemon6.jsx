@@ -10,28 +10,26 @@ import Sidebar from '../../components/sidebar/sidebar.jsx'
 import dark from '../../components/assets/images/dark.png'
 import fada from '../../components/assets/images/fada.png'
 import ghost from '../../components/assets/images/ghost.png'
-
-
-import {useNavigate } from 'react-router-dom'
+import { Link } from "react-router-dom"
 
 export default function PokemonPage2() {
 
-    const Navigate = useNavigate();
+    
 
     return (
         <>
         <Header/>
         <Sidebar/>
         <div className='poke'>
-            <button onClick={() => Navigate(-1)}>&#11164;Toadflame #05</button>
+           <Link to = '/Toadflame'><button>&#11164;Toadflame #05</button></Link> 
             <button>Shrimprill #07 &#11166;</button>
 
-           <h3 id='title-p'>Frokoua #06</h3> 
+           <h3 id='title-p'>Frokuma #06</h3> 
            <img src={poke} alt="" />
 
         </div>
            <div className='descrição'>
-            <h4>Frokoua, o pokémon rei das chamas, todas as almas atormentadas de suas batalhas passadas tomam forma em suas chamas as deixando azuladas, misteriosamente criam um par de braços adicionais.  </h4>
+            <h4>Frokuma, o pokémon rei das chamas, todas as almas atormentadas de suas batalhas passadas tomam forma em suas chamas as deixando azuladas, misteriosamente criam um par de braços adicionais.  </h4>
     
 
            </div>
