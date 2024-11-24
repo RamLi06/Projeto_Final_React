@@ -14,7 +14,8 @@ export default function Sidebar() {
     "/Foresterror",
     "/Flabull",
     "/Toadflame",
-    "/Frokkuna"]; 
+    "/Frokkuna",
+    "/Calamitas"]; 
 
 
   const handleRandomRedirect = () => {

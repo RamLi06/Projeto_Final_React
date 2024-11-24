@@ -7,6 +7,7 @@ import Poke4 from '../PokemonPage/pokemon4.jsx'
 import Poke5 from '../PokemonPage/pokemon5.jsx'
 import Poke6 from '../PokemonPage/pokemon6.jsx'
 import sobre from '../../components/register/index.jsx'
+import Calamitas from '../PokemonPage/pokemon7.jsx/'
 
 function App() {
  
@@ -36,6 +37,9 @@ function App() {
 
               <Route path = "/about"
               Component={sobre}/>
+
+              <Route path = "/Calamitas"
+              Component={Calamitas}/>
 
             </Routes>
         </Router>
