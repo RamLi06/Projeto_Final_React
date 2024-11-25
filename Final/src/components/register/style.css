@@ -11,6 +11,7 @@
     display: block; /* Garante que o elemento seja tratado como bloco para centralização */
     max-width: 2000px; /* Define um tamanho máximo */
     height: auto; /* Mantém a proporção */
+    transition: 1s;
 }
 
 .logo {
@@ -20,6 +21,9 @@
     display: block; /* Centraliza o logo como bloco */
     scale: 500%;/* Mantém a proporção */
     margin-top: 6%;
+}
+a{
+    width: 100px;
 }
 
 /* Estilos responsivos para telas menores */
@@ -58,4 +62,9 @@
 
 body{
     overflow: hidden;
+}
+
+#profile:hover{
+
+    box-shadow: 0.7px 15px 15px purple;
 }

@@ -3,6 +3,7 @@ import Header from '../header/index.jsx'
 import profile from '../assets/images/mage.jfif'
 import reactLogo from '../assets/images/react.svg'
 
+
 export default function Register(){
 
 
@@ -11,7 +12,7 @@ export default function Register(){
     <>
     <Header/>
     
-    <a href="https://github.com/RamLi06"><img id='profile' src={profile} alt="" /></a>
+    <a href = "https://github.com/RamLi06">  <img id='profile' src={profile}  /></a>
     <div className='register'>
        
         <p>Apenas uma pagina de fã criada por puro humor e para um projeto pessoal meu.</p>
@@ -21,7 +22,7 @@ export default function Register(){
 
         <img src={reactLogo} className="logo react"/>
         <div className='footer'>
-       
+  
         </div>
         
     </div>
@@ -29,10 +30,3 @@ export default function Register(){
     </>
     )
 }
-/* const routes = [
-    "/Herbkeeper",
-    "/Grasstalker",
-    "/Foresterror",
-    "/Flabull",
-    "/Toadflame",
-    "/Frokkuna"]; */
