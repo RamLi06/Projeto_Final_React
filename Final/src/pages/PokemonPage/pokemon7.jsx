@@ -25,7 +25,7 @@ export default function PokemonPage2() {
            <Link to = '/Frokkuna'><button>&#11164;Frokuma #05</button></Link> 
             <button>Acabou &#11166;</button>
 
-           <h3 id='title-p'>Calamitas #0?</h3> 
+           <h3 id='title-p'>Calamitas0̢̬̳̞̬̼͒ͮ́̒̋̽ͩ̋̄͘_̧̯̞̼͙͕̹͔̍̒̒̒̑̍͗͐̽̓ͤ́̅ͧͅ-̴̡̨̨̳͕͔͓̣͖͖ͭ̿ͦ̂̓͌̆̾ͥ̌ͭ͝/̨͍͈͔̬̪ͤͮͫ̌͐̀#̮̠̙̐͐͐ͬͬ̇?̧̛̭͍̘̱͔̳̦̖͍̤̬̈́͂́̓̇̎́́͜</h3> 
            <img src={poke} alt="" />
 
         </div>
